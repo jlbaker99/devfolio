@@ -15,44 +15,33 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/joseph-l-baker/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I am a full stack software engineer coming from a background in food production and safety. I know keeping the consumer safe is always top priority. I hold true to that key value when it comes to my code, making sure user information is protected at all times.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Green Sphere Training',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Training Platform built for Green Sphere Landscaping to use with employees.',
+        link: 'https://ga-capstone-project-joe.web.app/',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'GamesXpress',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Games library with social aspects such as likes, comments, and messaging.',
+        link: 'https://gamesxpress.herokuapp.com/games',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'General Assembly | Software Engineering Immersive Student',
+        description: 'Developed four projects during a 12-week 480+ hours immersive software engineering course focusing on full-stack front-end/back-end web development, problem-solving, and collaboration using proper version control.',
+        link: 'https://www.linkedin.com/school/general-assemb-ly/mycompany/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Cargill | Line Operator',
+        description: 'Maintained food safety and production on 7 different production lines to produce safe food for consumers.',
+        link: 'https://www.linkedin.com/company/cargill/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +49,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript, HTML, CSS, jQuery, Node, Express, React, Python, Django',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, PostgresSQL, Firestore',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Object Oriented Programming, MVC Pattern, Responsive Design, Authentication, User Stories, ERDs, Wireframing, Agile Development/Scrum'
       },
     ],
   },
